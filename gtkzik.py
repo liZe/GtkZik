@@ -79,4 +79,5 @@ class Window(Gtk.Window):
         folder = os.path.join(*self.song_tree.props.model[path])
         self.song_list.set_album(folder)
 
+
 window = Window()
